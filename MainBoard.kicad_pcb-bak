@@ -1812,7 +1812,7 @@
   )
 
   (module Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm (layer F.Cu) (tedit 54130A77) (tstamp 586E3B58)
-    (at 221.5 25.8)
+    (at 221.85 23.975)
     (descr "TSSOP28: plastic thin shrink small outline package; 28 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot361-1_po.pdf)")
     (tags "SSOP 0.65")
     (path /586E30E2)
