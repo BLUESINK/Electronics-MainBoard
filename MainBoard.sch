@@ -1,0 +1,337 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:custom_lib
+LIBS:MainBoard-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DYS_mini_ESC U?
+U 1 1 586CA1EB
+P 9150 1325
+F 0 "U?" H 8800 1625 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9150 1025 60  0000 C CNN
+F 2 "footprint:DYS_Mini_ESC" H 9000 975 60  0001 C CNN
+F 3 "" H 9000 975 60  0001 C CNN
+	1    9150 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 586CA3E0
+P 8325 1325
+F 0 "C?" H 8350 1425 50  0000 L CNN
+F 1 "CP1" H 8350 1225 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8325 1325 50  0001 C CNN
+F 3 "" H 8325 1325 50  0000 C CNN
+	1    8325 1325
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586CA451
+P 7925 1175
+F 0 "#PWR?" H 7925 925 50  0001 C CNN
+F 1 "GND" H 7925 1025 50  0000 C CNN
+F 2 "" H 7925 1175 50  0000 C CNN
+F 3 "" H 7925 1175 50  0000 C CNN
+	1    7925 1175
+	0    1    1    0   
+$EndComp
+Text Label 7850 1475 0    60   ~ 0
+V_PWR
+Text Label 7850 1325 0    60   ~ 0
+CH1
+Text Label 10000 1175 0    60   ~ 0
+MOTOR_1A
+Text Label 10000 1325 0    60   ~ 0
+MOTOR_1B
+Text Label 10000 1475 0    60   ~ 0
+MOTOR_1C
+$Comp
+L DYS_mini_ESC U?
+U 1 1 586CA57C
+P 9150 2100
+F 0 "U?" H 8800 2400 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9150 1800 60  0000 C CNN
+F 2 "footprint:DYS_Mini_ESC" H 9000 1750 60  0001 C CNN
+F 3 "" H 9000 1750 60  0001 C CNN
+	1    9150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 586CA583
+P 8325 2100
+F 0 "C?" H 8350 2200 50  0000 L CNN
+F 1 "CP1" H 8350 2000 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8325 2100 50  0001 C CNN
+F 3 "" H 8325 2100 50  0000 C CNN
+	1    8325 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586CA58E
+P 7925 1950
+F 0 "#PWR?" H 7925 1700 50  0001 C CNN
+F 1 "GND" H 7925 1800 50  0000 C CNN
+F 2 "" H 7925 1950 50  0000 C CNN
+F 3 "" H 7925 1950 50  0000 C CNN
+	1    7925 1950
+	0    1    1    0   
+$EndComp
+Text Label 7850 2250 0    60   ~ 0
+V_PWR
+Text Label 7850 2100 0    60   ~ 0
+CH2
+Text Label 10000 1950 0    60   ~ 0
+MOTOR_2A
+Text Label 10000 2100 0    60   ~ 0
+MOTOR_2B
+Text Label 10000 2250 0    60   ~ 0
+MOTOR_2C
+$Comp
+L DYS_mini_ESC U?
+U 1 1 586CA66D
+P 9150 2875
+F 0 "U?" H 8800 3175 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9150 2575 60  0000 C CNN
+F 2 "footprint:DYS_Mini_ESC" H 9000 2525 60  0001 C CNN
+F 3 "" H 9000 2525 60  0001 C CNN
+	1    9150 2875
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 586CA674
+P 8325 2875
+F 0 "C?" H 8350 2975 50  0000 L CNN
+F 1 "CP1" H 8350 2775 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8325 2875 50  0001 C CNN
+F 3 "" H 8325 2875 50  0000 C CNN
+	1    8325 2875
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586CA67F
+P 7925 2725
+F 0 "#PWR?" H 7925 2475 50  0001 C CNN
+F 1 "GND" H 7925 2575 50  0000 C CNN
+F 2 "" H 7925 2725 50  0000 C CNN
+F 3 "" H 7925 2725 50  0000 C CNN
+	1    7925 2725
+	0    1    1    0   
+$EndComp
+Text Label 7850 3025 0    60   ~ 0
+V_PWR
+Text Label 7850 2875 0    60   ~ 0
+CH3
+Text Label 10000 2725 0    60   ~ 0
+MOTOR_3A
+Text Label 10000 2875 0    60   ~ 0
+MOTOR_3B
+Text Label 10000 3025 0    60   ~ 0
+MOTOR_3C
+$Comp
+L DYS_mini_ESC U?
+U 1 1 586CA78C
+P 9150 3675
+F 0 "U?" H 8800 3975 60  0000 C CNN
+F 1 "DYS_mini_ESC" H 9150 3375 60  0000 C CNN
+F 2 "footprint:DYS_Mini_ESC" H 9000 3325 60  0001 C CNN
+F 3 "" H 9000 3325 60  0001 C CNN
+	1    9150 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 586CA793
+P 8325 3675
+F 0 "C?" H 8350 3775 50  0000 L CNN
+F 1 "CP1" H 8350 3575 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_6.3x4.5" H 8325 3675 50  0001 C CNN
+F 3 "" H 8325 3675 50  0000 C CNN
+	1    8325 3675
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586CA79E
+P 7925 3525
+F 0 "#PWR?" H 7925 3275 50  0001 C CNN
+F 1 "GND" H 7925 3375 50  0000 C CNN
+F 2 "" H 7925 3525 50  0000 C CNN
+F 3 "" H 7925 3525 50  0000 C CNN
+	1    7925 3525
+	0    1    1    0   
+$EndComp
+Text Label 7850 3825 0    60   ~ 0
+V_PWR
+Text Label 7850 3675 0    60   ~ 0
+CH4
+Text Label 10000 3525 0    60   ~ 0
+MOTOR_4A
+Text Label 10000 3675 0    60   ~ 0
+MOTOR_4B
+Text Label 10000 3825 0    60   ~ 0
+MOTOR_4C
+$Comp
+L mp2307 U?
+U 1 1 586CB551
+P 4575 1775
+F 0 "U?" H 4900 1400 60  0000 C CNN
+F 1 "mp2307" H 3400 1625 60  0000 C CNN
+F 2 "" H 4600 1700 60  0001 C CNN
+F 3 "" H 4600 1700 60  0001 C CNN
+	1    4575 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1475 8550 1475
+Connection ~ 8325 1475
+Wire Wire Line
+	8550 1175 7925 1175
+Connection ~ 8325 1175
+Wire Wire Line
+	8550 1325 7850 1325
+Wire Wire Line
+	9750 1175 10450 1175
+Wire Wire Line
+	9750 1325 10450 1325
+Wire Wire Line
+	9750 1475 10450 1475
+Wire Wire Line
+	7850 2250 8550 2250
+Connection ~ 8325 2250
+Wire Wire Line
+	8550 1950 7925 1950
+Connection ~ 8325 1950
+Wire Wire Line
+	8550 2100 7850 2100
+Wire Wire Line
+	9750 1950 10450 1950
+Wire Wire Line
+	9750 2100 10450 2100
+Wire Wire Line
+	9750 2250 10450 2250
+Wire Wire Line
+	7850 3025 8550 3025
+Connection ~ 8325 3025
+Wire Wire Line
+	8550 2725 7925 2725
+Connection ~ 8325 2725
+Wire Wire Line
+	8550 2875 7850 2875
+Wire Wire Line
+	9750 2725 10450 2725
+Wire Wire Line
+	9750 2875 10450 2875
+Wire Wire Line
+	9750 3025 10450 3025
+Wire Wire Line
+	7850 3825 8550 3825
+Connection ~ 8325 3825
+Wire Wire Line
+	8550 3525 7925 3525
+Connection ~ 8325 3525
+Wire Wire Line
+	8550 3675 7850 3675
+Wire Wire Line
+	9750 3525 10450 3525
+Wire Wire Line
+	9750 3675 10450 3675
+Wire Wire Line
+	9750 3825 10450 3825
+Wire Wire Line
+	4375 1200 4375 1275
+Wire Wire Line
+	3600 1200 4375 1200
+$Comp
+L R R?
+U 1 1 586CBA89
+P 4000 1425
+F 0 "R?" V 4080 1425 50  0000 C CNN
+F 1 "R" V 4000 1425 50  0000 C CNN
+F 2 "" V 3930 1425 50  0000 C CNN
+F 3 "" H 4000 1425 50  0000 C CNN
+	1    4000 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1200 4000 1275
+Connection ~ 4000 1200
+Wire Wire Line
+	4000 1575 4000 1675
+Text Label 3600 1200 0    60   ~ 0
+V_BAT
+$Comp
+L CP1 C?
+U 1 1 586CBCCB
+P 3800 1650
+F 0 "C?" H 3825 1750 50  0000 L CNN
+F 1 "CP1" H 3825 1550 50  0000 L CNN
+F 2 "" H 3800 1650 50  0000 C CNN
+F 3 "" H 3800 1650 50  0000 C CNN
+	1    3800 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1200 3800 1500
+Connection ~ 3800 1200
+$Comp
+L C C?
+U 1 1 586CBD99
+P 4000 2125
+F 0 "C?" H 4025 2225 50  0000 L CNN
+F 1 "C" H 4025 2025 50  0000 L CNN
+F 2 "" H 4038 1975 50  0000 C CNN
+F 3 "" H 4000 2125 50  0000 C CNN
+	1    4000 2125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1875 4000 1975
+Wire Wire Line
+	3800 1800 3800 2300
+$EndSCHEMATC
