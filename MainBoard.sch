@@ -2302,4 +2302,9 @@ Text Label 13675 4000 0    60   ~ 0
 SDA_5V
 Text Label 13675 3800 0    60   ~ 0
 SCL_5V
+NoConn ~ 9350 7375
+NoConn ~ 8800 8575
+NoConn ~ 8800 8675
+NoConn ~ 8800 8775
+NoConn ~ 8800 8875
 $EndSCHEMATC
