@@ -2353,15 +2353,7 @@ F 4 "296-27331-1-ND" H 8400 4425 60  0001 C CNN "DigiKey"
 	1    8400 4425
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7825 3725 7825 4225
-Wire Wire Line
-	7825 4225 7950 4225
 Connection ~ 7825 3725
-Wire Wire Line
-	7400 3725 7400 4425
-Wire Wire Line
-	7400 4425 7950 4425
 Connection ~ 7400 3725
 Text Label 11675 3725 0    60   ~ 0
 V_BAT
@@ -2627,4 +2619,12 @@ Wire Notes Line
 	6825 5325 6825 3375
 Text Notes 13900 5250 0    60   Italic 0
 Current & Voltage sensing
+Wire Wire Line
+	7950 4225 7400 4225
+Wire Wire Line
+	7400 4225 7400 3725
+Wire Wire Line
+	7825 3725 7825 4425
+Wire Wire Line
+	7825 4425 7950 4425
 $EndSCHEMATC
